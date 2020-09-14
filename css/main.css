@@ -15,6 +15,9 @@ body {
 
 section ul {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
 }
 
 section {
@@ -28,10 +31,9 @@ img {
 }
 
 li {
-  display: block flex;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center'
   margin: 1.5rem;
-}
 
 li a {
   background-color: #444;
@@ -42,4 +44,8 @@ li a {
 
 p {
   width: 24rem;
+}
+
+h3, h4{
+  margin: 0;
 }
