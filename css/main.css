@@ -16,22 +16,16 @@ body {
 section ul {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: stretch;
+  justify-content: space-between;
 }
 
-section {
-  padding: .5rem;
-}
-
-img {
-  display: block;
+li img {
   width: 5rem;
 }
 
 li {
   display: flex;
-  justify-content: center;
   margin: 1.5rem;
 }
 
@@ -42,12 +36,9 @@ li a {
   padding: .5rem 1rem .6rem;
 }
 
-hgroup {
-  margin-left: 1.5rem;
-}
-
-p {
-  width: 24rem;
+li hgroup {
+  margin: 1.5rem;
+  width: 15rem;
 }
 
 h3, h4 {
