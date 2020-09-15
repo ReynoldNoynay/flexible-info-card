@@ -22,7 +22,6 @@ section ul {
 
 section {
   padding: .5rem;
-  align-items: center;
 }
 
 img {
@@ -32,8 +31,9 @@ img {
 
 li {
   display: flex;
-  justify-content: center'
+  justify-content: center;
   margin: 1.5rem;
+}
 
 li a {
   background-color: #444;
@@ -42,10 +42,14 @@ li a {
   padding: .5rem 1rem .6rem;
 }
 
+hgroup {
+  margin-left: 1.5rem;
+}
+
 p {
   width: 24rem;
 }
 
-h3, h4{
+h3, h4 {
   margin: 0;
 }
